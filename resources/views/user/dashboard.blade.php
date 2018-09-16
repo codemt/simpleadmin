@@ -14,7 +14,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <title>User Dashboard</title>
 </head>
-<body>
+<body style="background-image: url(https://www.elsa-belgium.org/wp-content/uploads/2016/09/header-background.jpg)" >
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Hello User </a>
@@ -33,6 +33,17 @@
               </ul>
             </div>
           </nav>
+
+          <div class="container">
+
+
+              @if (session('Status'))
+              <p style="background-color:#FFF;padding-top:1em;">  {{ "Message : " . session('Status') }} </p>
+          @endif
+
+
+          
+          </div>
     
 
 
