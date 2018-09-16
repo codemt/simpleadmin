@@ -40,3 +40,5 @@ Route::get('/admin/login','AdminController@login')->name('admin/login');
 Route::post('/admin/login','AdminController@index');
 Route::post('/approve-user','AdminController@approval');
 Route::get('/logout','LogoutController@logout')->name('logout');
+Route::get('login/google', 'GoogleController@redirectToProvider')->name('login/google');
+Route::get('login/google/callback', 'GoogleController@handleProviderCallback');

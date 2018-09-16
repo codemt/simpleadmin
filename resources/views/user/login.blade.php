@@ -12,7 +12,7 @@
    
        <!-- Latest compiled JavaScript -->
        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <title>Register New User </title>
+    <title> User Login </title>
 </head>
 <body style="background-image: url(https://www.elsa-belgium.org/wp-content/uploads/2016/09/header-background.jpg)">
     <!-- NavBar -->

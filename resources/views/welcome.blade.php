@@ -92,6 +92,9 @@
                         <a class="nav-link" href="{{ route('register') }}">User  Register <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ route('login/google') }}"> Login with Google  <span class="sr-only">(current)</span></a>
+            </li>
+                <li class="nav-item">
                         @if (Route::has('login'))
                         @auth
                         <a href="{{ url('/home') }}">Home</a>
