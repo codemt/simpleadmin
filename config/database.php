@@ -47,18 +47,15 @@ return [
         ],
 
         'mysql' => [
-            
-            'driver' => 'mysql',
-            'port' => env('DB_PORT', '3306'),
+
+            'driver'    => 'mysql',
             'host'      => $host,
             'database'  => $database,
             'username'  => $username,
             'password'  => $password,
-            'charset' => 'utf8',
+            'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
-            'prefix' => '',
-            'strict' => false,
-            'engine' => null,
+            'prefix'    => '',
         ],
 
         'pgsql' => [
